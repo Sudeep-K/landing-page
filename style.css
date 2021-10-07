@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "helvetica";
+}
+
+
+/* Header section */
+.header{
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 12px 150px;
+    align-items: space-evenly;;
+}
+
+
+/* first heading section */
+.header-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    font-weight: bold;
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+.right-link{
+    margin-left: auto;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.right-link ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    gap: 16px;
+}
+
+/* subheading */
+.header-subheading{
+    display: flex;
+    margin-bottom: 100px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.left-content{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-shrink: 2;
+
+}
+
+.main-text{
+    font-weight: 900;
+    color: #f9faf8;
+    font-size:48px;
+}
+
+.left-content p{
+    margin: 0;
+}
+
+.left-content button{
+    background: #3882f6;
+    color: #f9faf8;
+    margin: 5px 0;
+    border: 0.5px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.placeholder{
+    display: flex;
+    color: #e5e7eb;
+    width:800px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+
+
+/* cards section */
+.cards{
+    background: #f9faf8;
+    margin: 20px 0;
+    padding: 20px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 52px;
+}
+
+.box-image{
+    border: 2.5px solid #3882f6;
+    border-radius: 15px;
+    height: 175px;
+    width: 175px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.info{
+    max-width: 175px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* quote section */
+.quote{
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 30px 200px;
+}
+
+.quote-content{
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+.quote-by{
+    font-weight: bolder;
+    display: flex;
+    margin-left: auto;
+}
